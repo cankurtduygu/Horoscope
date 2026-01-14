@@ -14,7 +14,8 @@
 
 
     &__item {
-        border: 1px solid #000;
+        // border: 1px solid #000;
+        border-radius: 10px;
         position: relative;
         overflow: hidden;
         background-size: cover;
@@ -31,8 +32,6 @@
             color: #f6b21a;
             font-weight: 800;
             letter-spacing: .5px;
-
-
         }
 
         &__date {
@@ -52,9 +51,9 @@
 
         &__desc {
             position: absolute;
-            left: 16px;
-            right: 16px;
-            bottom: 16px;
+            left: 8px;
+            right: 8px;
+            bottom: 0px;
             padding: 18px;
             border-radius: 16px;
             background: rgba(0, 0, 0, .55);
