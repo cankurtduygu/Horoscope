@@ -1,0 +1,26 @@
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-inline: min(5vw, 50px);
+  gap: min(3vw, 30px);
+}
+@media screen and (max-width: 768px) {
+  .card {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 540px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}
+.card__item {
+  border: 1px solid #000;
+}
+.card__item__img {
+  width: 100%;
+  height: 100%;
+}
+.card__item__desc {
+  display: none;
+}/*# sourceMappingURL=Card.css.map */
