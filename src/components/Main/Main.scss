@@ -1,4 +1,36 @@
-.main{
-    padding: 20px;
+.main {
+    padding: min(5vw, 40px);
+    margin-bottom: 50px;
     text-align: center;
+    
+
+    &__title {
+        font-size: min(5vw, 80px);
+        margin-block: 40px;
+        letter-spacing: 10px;
+        // opacity: 0.5;
+        animation: blink 1.5s ease-in-out infinite;
+        // text-shadow: 0 0 0 rgba(0, 0, 0, 0); // başlangıç
+        cursor: pointer;
+
+        &:hover {
+            color: #a9720d;
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 0.5;
+                text-shadow: 0 0 12px rgba(255, 180, 0, 0.7);
+            }
+
+            50% {
+                opacity: 1;
+                text-shadow: 0 0 12px rgba(255, 180, 0, 0.7);
+            }
+        }
+
+    }
+
 }

@@ -8,7 +8,7 @@
 
 body {
   font-family: "Concert One", cursive;
-  background-color: #f9efd4;
+  background: linear-gradient(135deg, #f9efd4 0%, #ff7f5b 100%);
 }
 
 p {
