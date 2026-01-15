@@ -6,7 +6,16 @@ const Main = () => {
   return (
     <div className="main">
       <h1 className='main__title'>WHO ARE YOU?</h1>
-      <Card data={data} />
+      <div className='card'>  
+      { data.map((burc)=>(
+        <div key={burc.id}>
+          <Card {...burc} />
+        </div>
+      ))
+
+      }
+      </div>
+      
     </div>
   )
 }
