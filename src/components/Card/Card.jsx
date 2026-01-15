@@ -7,7 +7,7 @@ const Card = ({id, title, desc, image, date}) => {
     <>
     
         
-            <div className='card__item' key={id}>
+            <div className='card__item' >
                 <h2 className='card__item__title'>{title}</h2>
                 <div className='card__item__img' 
                 style={{ backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '500px' }}>
